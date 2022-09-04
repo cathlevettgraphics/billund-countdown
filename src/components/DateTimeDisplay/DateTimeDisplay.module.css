@@ -1,0 +1,55 @@
+.timeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.danger {
+  margin: 0;
+  font-size: 48px;
+  color: rgb(255, 230, 0);
+  margin-bottom: -10px;
+}
+
+.timeDisplayNumber {
+  margin: 0;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: -10px;
+}
+
+.timeDisplayText {
+  font-size: 12px;
+  font-weight: 100;
+  color: #fff;
+}
+
+@media (min-width: 700px) {
+  .timeDisplayNumber {
+    font-size: 86px;
+  }
+
+  .danger {
+    font-size: 86px;
+  }
+
+  .timeDisplayText {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 900px) {
+  .timeDisplayNumber {
+    font-size: 86px;
+  }
+
+  .danger {
+    font-size: 86px;
+  }
+
+  .timeDisplayText {
+    font-size: 24px;
+  }
+}

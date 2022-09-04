@@ -1,3 +1,4 @@
+import './../src/generics.css';
 import CountdownTimer from './components/CountdownTimer/CountdownTimer';
 
 function App() {
@@ -9,10 +10,13 @@ function App() {
   const displayTimeToFlight =
     currentTimeInMilliseconds + differenceInTimeFromNow;
   return (
-    <>
-      <h1>Billund ... are you ready for Cybots?!</h1>
-      <CountdownTimer targetDate={displayTimeToFlight} />
-    </>
+    <div className="wrapper">
+      <h1 className="headline">Billund ... are you ready for Cybots?!</h1>
+      <div className="countdownWrapper">
+        <CountdownTimer targetDate={displayTimeToFlight} />
+      </div>
+      <p className="tourDate">12-14 September 2022</p>
+    </div>
   );
 }
 
