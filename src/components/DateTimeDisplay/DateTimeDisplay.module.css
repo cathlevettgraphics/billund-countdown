@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.danger {
+.finalCountdown {
   margin: 0;
   font-size: 48px;
   color: rgb(255, 230, 0);
@@ -31,7 +31,7 @@
     font-size: 86px;
   }
 
-  .danger {
+  .finalCountdown {
     font-size: 86px;
   }
 
@@ -45,7 +45,7 @@
     font-size: 86px;
   }
 
-  .danger {
+  .finalCountdown {
     font-size: 86px;
   }
 
