@@ -1,4 +1,4 @@
-import useCountdown from '../../hooks/useCountdown';
+import { useCountdown } from '../../hooks/useCountDown';
 import ExpiredNotice from '../ExpiredNotice/ExpiredNotice';
 import ShowCounter from '../ShowCounter/ShowCounter';
 
